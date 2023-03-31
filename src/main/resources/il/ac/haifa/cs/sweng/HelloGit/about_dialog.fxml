@@ -5,6 +5,7 @@
 <?import javafx.scene.text.Font?>
 
 
+<?import javafx.scene.control.skin.ColorPalette.ColorPickerGrid?>
 <VBox xmlns:fx="http://javafx.com/fxml/1">
 	<!-- TODO Add Nodes -->
 	<!--<Label> "Hi there, We are using Git ! ! ! "</Label>-->
@@ -13,6 +14,16 @@
 		   maxWidth="2.7976931348623157E308"
 		   text="Hi there , We are using Git ! ! !"
 		   textAlignment="CENTER"
+		   VBox.vgrow="ALWAYS">
+		<font>
+			<Font size="31.0" />
+		</font>
+	</Label>
+	<Label alignment="CENTER"
+		   maxWidth="2.7976931348623157E308"
+		   text="Alaa added"
+		   textAlignment="CENTER"
+		   textFill="lightseagreen"
 		   VBox.vgrow="ALWAYS">
 		<font>
 			<Font size="31.0" />
